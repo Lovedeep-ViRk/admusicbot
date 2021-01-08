@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: "help",
   aliases: ["h"],
-  description: "Display all commands and descriptions",
+  description: "Display all commands of Deep ViRk Music Bot",
   execute(message) {
     let commands = message.client.commands.array();
 
